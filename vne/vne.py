@@ -1,34 +1,4 @@
 #!/usr/bin/python
-# ---------------------------------------------------------------------------
-# File: cutstock.py
-# Version 12.6.3
-# ---------------------------------------------------------------------------
-# Licensed Materials - Property of IBM
-# 5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
-# Copyright IBM Corporation 2009, 2015. All Rights Reserved.
-#
-# US Government Users Restricted Rights - Use, duplication or
-# disclosure restricted by GSA ADP Schedule Contract with
-# IBM Corp.
-# ---------------------------------------------------------------------------
-#
-# cutstock.py -- using column generation
-#
-# Problem Description:
-#
-# The cutting stock problem in this example is sometimes known in math
-# programming terms as a knapsack problem with reduced costs in the
-# objective function. Generally, a cutting stock problem begins with a
-# supply of rolls of material of fixed length (the stock). Strips are cut
-# from these rolls. All the strips cut from one roll are known together as
-# a pattern. The point of this example is to use as few rolls of stock as
-# possible to satisfy some specified demand of strips. By convention, it is
-# assumed that only one pattern is laid out across the stock; consequently,
-# only one dimension (the width) of each roll of stock is important.
-#
-# To run from the command line, use
-#
-#    python cutstock.py
 
 from __future__ import print_function
 
